@@ -1,0 +1,137 @@
+html {
+    height: auto;
+    width: auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1d1d1d
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    color: white;
+    font-size: 6rem;
+    margin: 0;
+}
+
+button {
+    color: white;
+    background-color: #596D48;
+    width: 14rem;
+    height: 3rem;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: 600;
+    box-shadow: 3px 3px 6px 2px rgba(0,0,0,0.2);
+    margin-top: 30px;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+h3 em {
+    font-style: normal;
+    font-weight: bold;
+    color: #596D48;
+}
+
+label {
+    padding-bottom: 4px;
+    letter-spacing: 1px;
+    font-size: 16px;
+}
+
+input {
+    border: 1px solid;
+    border-color: rgb(218, 218, 218);
+    border-radius: 5px;
+    min-height: 2rem;
+    width: 16rem;
+    font-size: 20px;
+}
+
+#left-title-box {
+    background-image: url(leaf-background.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+    flex-grow: 1;
+
+}
+
+#left-title-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12rem;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#page-layout {
+    display: flex;
+    flex-direction: row;
+}
+
+#left-title-box img {
+    height: 6rem;
+}
+
+#right-info-box {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    background-color: rgb(253, 253, 247);
+    min-height: 100vh;
+}
+
+#info-texts {
+    flex-grow: 1;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    align-content: flex-end;
+}
+
+#form-inputs-section {
+    background-color: white;
+    padding-left: 50px;
+    box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.2);
+    padding-bottom: 35px;
+}
+
+#labels-inputs {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+#third-right-box {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding-left: 50px;
+}
+
+.vert-inputs {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    font-variant-caps: all-petite-caps;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+input:focus {
+    border: 1px solid blue;
+    box-shadow: 3px 3px 6px 0px rgba(0,0,0,0.2);
+    outline: none;
+}
+
+input:user-invalid {
+    border-color: rgb(148, 0, 0);
+}
